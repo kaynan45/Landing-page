@@ -34,7 +34,7 @@
   font-weight: 300;
 }
 
-.header-area button {
+.sign-up-button {
   height: auto;
   width: 90px;
   font-size: 18px;
@@ -46,10 +46,18 @@
   font-weight: 400;
 }
 
-.header-area button:hover {
+.sign-up-button:hover {
   background-color: #6295e6;
   cursor: pointer;
 }
+
+.sign-up-button:active{
+    background-color: #c3d1e8;
+
+}
+  
+
+
 
 .guitar-image {
   width: 500px;
@@ -87,8 +95,8 @@
   width: 200px;
 }
 
-.box-subtext{
-text-align: center;
+.box-subtext {
+  text-align: center;
 }
 
 .blue-box {
@@ -98,7 +106,7 @@ text-align: center;
   border-radius: 15px;
 }
 
-.poem-area{
+.poem-area {
   background-color: #e5e7eb;
   height: 200px;
   width: auto;
@@ -107,18 +115,55 @@ text-align: center;
   align-items: center;
   justify-content: center;
 }
-.poem-valid-area{
-    height: auto;
-    width: 800px;
+.poem-valid-area {
+  height: auto;
+  width: 800px;
 }
 
-.poem{
-font-size: 38px;
-font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
+.poem {
+  font-size: 38px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
-.writer{
-text-align: right;
+.writer {
+  text-align: right;
+}
+
+.footer-area {
+background-color: white;
+flex-basis: 350px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.Sign-up-area{
+    background-color: #3882f6;
+    height: 120px;
+    width: 1000px;
+    border-radius: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sign-up-title{
+color: white;
+margin-bottom: 0;
+
+}
+
+
+
+.Sign-up-text{
+    color: white;
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.Sign-up-area button{
+border: solid white;
+border-width: 1px;
 
 }
