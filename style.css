@@ -1,0 +1,72 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+.header-area {
+  background-color: #1f2937;
+  height: 200px;
+  width: auto;
+  flex-basis: 450px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-header {
+  width: 480px;
+  height: auto;
+}
+.header-area h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.header-area p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.header-area button {
+  height: auto;
+  width: 90px;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.header-area button:hover {
+  background-color: #6295e6;
+  cursor: pointer;
+}
+
+.guitar-image{
+    width: 500px;
+    height: auto;
+    border: solid white;
+}
+
+.information-area {
+  background-color: white;
+  height: 200px;
+  width: auto;
+  flex-basis: 600px;
+}
+
+.footer-area {
+  background-color: #e5e7eb;
+  height: 200px;
+  width: auto;
+}
