@@ -110,5 +110,15 @@ text-align: center;
 .poem-valid-area{
     height: auto;
     width: 800px;
-    border: solid red;
+}
+
+.poem{
+font-size: 38px;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+.writer{
+text-align: right;
+
 }
