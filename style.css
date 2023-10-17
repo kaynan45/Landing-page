@@ -98,8 +98,17 @@ text-align: center;
   border-radius: 15px;
 }
 
-.footer-area {
+.poem-area{
   background-color: #e5e7eb;
   height: 200px;
   width: auto;
+  flex-basis: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poem-valid-area{
+    height: auto;
+    width: 800px;
+    border: solid red;
 }
